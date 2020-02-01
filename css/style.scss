@@ -444,7 +444,7 @@ main
         &__inner {
             background-color: #fff;
             padding-top: 40px;
-            padding-bottom: 30px;
+            padding-bottom: 320px;
 
             @media screen and (min-width: 768px) {
                 max-width: 80%;
@@ -471,13 +471,13 @@ main
         &__title {
             font-size: 1.6rem;
             text-align: center;
-            padding: 50px 0 0;
+            padding: 50px 0 5px;
 
             &-coment {
                 font-size: 1rem;
                 text-align: center;
                 color: #ccc;
-                margin-bottom: 15px;
+                margin-bottom: 30px;
             }
 
             &::before {
@@ -535,16 +535,16 @@ main
                 margin: 0 auto;
                 display: flex;
                 flex-flow: row-reverse wrap;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: stretch;
             }
         }
 
         &__image {
             @media screen and (min-width: 768px) {
-                flex-basis: calc((100% / 3) - 20px);
-                max-width: calc((100% / 3) - 20px);
-                margin: 0 10px;
+                flex-basis: calc(100% / 3);
+                max-width: calc(100% / 3);
+                margin: 0 ;
             }
 
             img {
@@ -556,9 +556,9 @@ main
             margin: 20px 0;
 
             @media screen and (min-width: 768px) {
-                flex-basis: calc(((100% / 3) * 2) - 20px);
-                max-width: calc(((100% / 3) * 2) - 20px);
-                margin: 0 10px;
+                flex-basis: calc((100% / 3) * 2);
+                max-width: calc((100% / 3) * 2);
+                margin: 0;
             }
 
         }
@@ -570,6 +570,7 @@ main
         &__inner {
             width: 90%;
             margin: 0 auto;
+            
         }
 
         &__image {
@@ -580,11 +581,17 @@ main
     }
 
     &-timetable {
+        
         &__inner {
             @media screen and (min-width: 992px) {
                 display: flex;
                 justify-content: center;
                 align-items: stretch;
+                width: calc(100% + 20px);
+                margin: 0 -10px;
+                &-out{
+                    width: 90%;
+                }
             }
         }
 
@@ -641,9 +648,11 @@ main
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
                 border: none;
                 width: 90%;
+                padding: 0;
+                margin: 0 auto 15px;
             }
         }
 
@@ -652,8 +661,8 @@ main
 
             @media screen and (min-width: 992px) {
                 flex-basis: calc(40% - 10px);
-                max-width: calc(40% - 0px);
-                margin: 0 5px;
+                max-width: calc(40% - 10px);
+                margin: 0 10px 0 0;
             }
 
             img {
@@ -666,19 +675,20 @@ main
             line-height: 1.5;
 
             @media screen and (min-width: 992px) {
-                flex-basis: calc(60% - 10px);
-                max-width: calc(60% - 10px);
-                margin: 0 5px;
+                flex-basis: calc(60% - 20px);
+                max-width: calc(60% - 20px);
+                margin: 0 0 0 20px;
             }
 
             &-title {
-                font-size: 1.2rem;
+                font-size: 1.4rem;
                 font-weight: bold;
-                padding: 10px 0 0;
+                padding: 0 0 10px;
             }
 
             &-daytime {
                 font-size: 0.8rem;
+                margin-bottom: 30px;
             }
 
             &-copy {
@@ -790,7 +800,6 @@ main
 
     &-footer {
         color: #fff;
-        width: 100%;
         background: #239F40;
         padding: 0 30px 80px;
         font-size: 12px;
