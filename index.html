@@ -3,157 +3,422 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>shonanIRANfilm</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--    <meta name="robots" content="noindex" />-->
+    <meta name="keyword" content="イラン映画,イラン映画祭,湘南藤沢,Fプレイス,無料上映,藤沢イラン,2020年2月">
+    <meta name="description" content="湘南藤沢で開催される「湘南藤沢イラン映画祭2020」藤沢市Fプレイスホールで無料上映。なかなか日本でみることのできないイラン映画をこの機会にぜひご覧ください。">
+    <title>≪公式≫【無料上映】 湘南藤沢イラン映画祭2020</title>
+    <link rel="stylesheet" type="text/css" href="css/style02.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510176-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157510176-1');
+
+    </script>
 </head>
 
 <body>
-    <div class="index-header">
-        <div class="index-header__element">
-            <h1 class="index-header__element-title">湘南藤沢イラン映画祭</h1>
-            <p class="index-header__element-day">2/29<span class="blue">sat</span>～3/1<span class="red">sun</span></p>
-            <p class="index-header__element-place">藤沢市Fプレイス</p>
-        </div>
-        <div id="index-header__nav-drawer nav-drawer">
-            <input id="nav-input" type="checkbox" class="nav-unshown">
-            <label id="nav-open" for="nav-input"><span></span></label>
-            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-            <div id="nav-content">ここに中身を入れる</div>
-        </div>
-        <div class="index-header__text">menu</div>
-    </div>
+    <div class="wrap">
+        <!--header-->
+        <div class="index-header">
+            <div class="index-header__element">
+                <h1 class="index-header__element-title"><a href="#top">湘南藤沢イラン映画祭</a></h1>
+                <p class="index-header__element-day">2/29<span class="blue">sat</span>～3/1<span class="red">sun</span></p>
+                <p class="index-header__element-place">藤沢市Fプレイス</p>
+            </div>
 
-    <!--mv-->
-    <div class="index-hero">
-        <figure class="index-hero__image">
-            <img src="img/index-hero_img_sp.jpg" alt="" class="index-hero__image-element">
-        </figure>
-    </div>
+            <div id="menu-bt" class="index-header__menu c-dn-md">
+                <img src="./img/spmenu.png" id="drower">
+            </div>
 
-    <!--新着情報-->
-    <section class="index-section index-news">
-        <h1 class="index-section__title">新着情報</h1>
-        <p class="index-section__title-coment">چه چیز جدیدی است</p>
-        <ul class="index-section__inner index-news__content">
-            <li class="index-news__content-element">
-                <a href="#">
-                    <time class="index-news__content-time" datetime="2020-01-01">2020.1.1</time>
-                    <span class="index-news__content-title">公式サイトを公開しました。</span>
-                </a>
-            </li>
-            <li class="index-news__content-element">
-                <a href="#">
-                    <time class="index-news__content-time" datetime="2020-01-01">2020.1.1</time>
-                    <span class="index-news__content-title">公式サイトを公開しました。</span>
-                </a>
-            </li>
-            <li class="index-news__content-element">
-                <a href="#">
-                    <time class="index-news__content-time" datetime="2020-01-01">2020.1.1</time>
-                    <span class="index-news__content-title">公式サイトを公開しました。</span>
-                </a>
-            </li>
-        </ul>
-    </section>
+            <nav id="menu" class="c-dn-md">
+                <ul>
+                    <li class="menu_contents"><a href="#index-news">NEWS</a></li>
+                    <li class="menu_contents"><a href="#index-about">イラン映画祭について</a></li>
+                    <li class="menu_contents"><a href="#index-timetable">タイムテーブル</a></li>
+                    <li class="menu_contents"><a href="#index-works">上映作品</a></li>
+                    <li class="menu_contents"><a href="#index-access">アクセス</a></li>
+                    <li class="sns menu_contents">
+                        <div class="icon"><a href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" target="_blank"><img src="img/nav_content_img01.png" alt=""></a></div>
+                        <div class="icon"><a href="https://twitter.com/0VK9EcrqtmCWYLW?ref_src=twsrc%5Etfw" target="_blank"><img src="img/nav_content_img02.png" alt=""></a></div>
+                    </li>
+                </ul>
+            </nav>
 
-    <!--イラン映画祭について-->
-    <section class="index-section index-about">
-        <h1 class="index-section__title">イラン映画祭について</h1>
-        <p class="index-section__title-coment">چه چیز جدیدی است</p>
-        <div class="index-section__inner">
-            <figure class="index-about__image">
-                <img src="img/index-about_img.jpg" alt="" class="index-about__image-item">
-            </figure>
-            <p class="index-about__text">dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy </p>
-        </div>
-    </section>
 
-    <!--SNS-->
-    <section class="index-section index-sns">
-        <h1 class="index-section__title">SNS</h1>
-        <p class="index-section__title-coment">سرویس شبکه های اجتماعی</p>
-        <div class="index-section__inner">
-            <figure class="index-sns__image">
-                <img src="img/index-about_img.jpg" alt="" class="index-about__image-item">
-            </figure>
+
+            <!--pc-->
+            <ul class="index-header__element02 c-dn c-db-md">
+                <li><a href="#index-news">NEWS</a></li>
+                <li><a href="#index-about">イラン映画祭について</a></li>
+                <li><a href="#index-timetable">タイムテーブル</a></li>
+                <li><a href="#index-works">上映作品</a></li>
+                <li><a href="#index-access">アクセス</a></li>
+                <li class="sns">
+                    <div class="icon"><a href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" target="_blank"><img src="img/nav_content_img01.png" alt=""></a></div>
+                    <div class="icon"><a href="https://twitter.com/0VK9EcrqtmCWYLW?ref_src=twsrc%5Etfw" target="_blank"><img src="img/nav_content_img02.png" alt=""></a></div>
+                </li>
+            </ul>
+            <!--/pc-->
 
         </div>
-    </section>
 
-    <!--タイムテーブル-->
-    <section class="index-section index-timetable">
-        <h1 class="index-section__title">タイムテーブル</h1>
-        <p class="index-section__title-coment">جدول زمان</p>
-        <div class="index-section__inner">
-
-            <table class="index-timetable__box">
-                <tr>
-                    <th colspan="2" class="index-timetable__box-title">2/29(土)</th>
-                </tr>
-                <tr>
-                    <td>10:20~<br>(94分)</td>
-                    <td>「想像の甘美な味わい」上映</td>
-                </tr>
-                <tr>
-                    <td>13:00~<br>(50分)</td>
-                    <td>オープニングセレモニー</td>
-                </tr>
-                <tr>
-                    <td>14:00~<br>(121分)</td>
-                    <td>「こんなに遠く、こんなに近い」上映</td>
-                </tr>
-                <tr>
-                    <td>16:30~<br>(70分)</td>
-                    <td>「最後の晩餐」上映</td>
-                </tr>
-                <tr>
-                    <td>19:00~<br>(105分)</td>
-                    <td>ボティガード</td>
-                </tr>
-            </table>
-
-            <table class="index-timetable__box">
-                <tr>
-                    <th colspan="2" class="index-timetable__box-title">3/1(日)</th>
-                </tr>
-                <tr>
-                    <td>10:20~<br>(92分)</td>
-                    <td>「ペインティングプール」上映</td>
-                </tr>
-                <tr>
-                    <td>13:00~<br>(105分)</td>
-                    <td>「ボディガード」上映</td>
-                </tr>
-                <tr>
-                    <td>15:00~<br>(110分)</td>
-                    <td>「クレイジールーク」上映</td>
-                </tr>
-
-            </table>
-            <table class="index-timetable__day02"></table>
-        </div>
-    </section>
-
-    <!--イラン映画祭について-->
-    <section class="index-section index-works">
-        <h1 class="index-section__title">上映作品</h1>
-        <p class="index-section__title-coment">نمایش فیلم کار می کند</p>
-        <div class="index-works__inner">
-            <figure class="index-works__image">
-                <img src="img/index-works_img.jpg" alt="" class="index-works__image-item">
-            </figure>
-            <div class="index-works__text">
-                <div class="index-works__text-title">想像の甘美な味わい</div>
-                <div class="index-works__text-daytime">2/29(土)10:20～ 94分</div>
-                <div class="index-works__text-copy">キャッチコピー文</div>
-                <p class="index-works__text-element">
-                    dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy dammy
-                </p>
-                <div class="index-works__text-caption">2014年制作(日本語字幕)<br>監督：カマル・タブリーズィー</div>
+        <!--mv-->
+        <div class="index-hero" id="top">
+            <div class="index-hero__image">
+                <!--
+                <div class="index-hero__image-text">
+                    <h1><span>湘南藤沢<span class="red">初</span> !！</span><br>
+                        湘南藤沢イラン映画祭</h1>
+                    <p class="day">2/2<span class="sat">土</span>～3/1<span class="sun">日</span><br class="c-dn-md"><span class="time">(10:00-21:00)</span></p>
+                    <p>藤沢市・藤沢公民館<br class="c-dn-md"><span class="c-dn c-db-md inline-block">・</span>労働会館等複合施設(F Place)</p>
+                </div>
+-->
+                <figure class="index-hero__image-logo">
+                    <img src="img/logo.png" alt="IRANIAN FILM FESTIVAL IN FUJISAWA"></figure>
+                <figure class="index-hero__image-title">
+                    <img src="img/sp_title.png" alt="湘南藤沢初!!湘南藤沢イラン映画祭 2/29土10:00-21:00　3/1日10:00-21:00　藤沢市・藤沢公民館・労働会館等複合施設（F Place）" class="c-dn-md">
+                    <img src="img/pc_title.png" alt="湘南藤沢初!!湘南藤沢イラン映画祭 2/29土10:00-21:00　3/1日10:00-21:00　藤沢市・藤沢公民館・労働会館等複合施設（F Place）" class="c-dn c-db-md">
+                </figure>
             </div>
         </div>
-    </section>
+        <div class="index-wrapper">
+            <div class="index-wrapper__inner">
+                <div class="left">
+                    <!--NEWS-->
+                    <section class="index-section" id="index-news">
+                        <h1 class="index-section__title">NEWS</h1>
+                        <p class="index-section__title-coment">چه چیز جدیدی است</p>
+                        <ul class="index-section__inner index-news__content">
+                            <li class="index-news__content-element">
+                                <a href="http://www.shonaniranfilm.shop/pdf/SFIF2020PDF.pdf" target="_blank">
+                                    <time class="index-news__content-time" datetime="2020-01-01">2020.2.14</time>
+                                    <span class="index-news__content-title">チラシPDFをアップしました</span>
+                                </a>
+                            </li>
+                               <li class="index-news__content-element">
+                                <a href="#">
+                                    <time class="index-news__content-time" datetime="2020-01-01">2020.2.9</time>
+                                    <span class="index-news__content-title">公式サイトを公開しました。</span>
+                                </a>
+                            </li>
+                            <li class="index-news__content-element">
+                                <a href="https://twitter.com/0VK9EcrqtmCWYLW?ref_src=twsrc%5Etfw" target="_blank">
+                                    <time class="index-news__content-time" datetime="2020-01-01">2020.2.9</time>
+                                    <span class="index-news__content-title">Twitterを公開しました。</span>
+                                </a>
+                            </li>
+                            <li class="index-news__content-element">
+                                <a href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" target="_blank">
+                                    <time class="index-news__content-time" datetime="2020-01-01">2020.2.9</time>
+                                    <span class="index-news__content-title">Facebookを公開しました。</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!--イラン映画祭について-->
+                    <section class="index-section" id="index-about">
+                        <h1 class="index-section__title">イラン映画祭について</h1>
+                        <p class="index-section__title-coment">چه چیز جدیدی است</p>
+                        <div class="index-section__inner index-about__inner">
+                            <!--
+                            <figure class="index-about__image">
+                                <img src="img/index-about_img.jpg" alt="" class="index-about__image-item">
+                            </figure>
+-->
+                            <p class="index-about__text">湘南藤沢で初めてイラン映画祭を開催します。<br>高い評価を受けながら日本でなかなかみる機会のないイラン映画を無料、字幕付きで上映。<br>初めてご覧になるかた、アジア・イラン映画がお好きなかた、見逃したイラン映画のあるかた、ぜひご来場ください。<br>JR東海道線「藤沢」駅徒歩11分の藤沢市「Ｆプレイスホール」で開催します。</p>
+                        </div>
+                    </section>
+
+                    <!--SNS-->
+                    <!--
+                    <section class="index-section c-dn-lg" id="index-sns">
+                        <h1 class="index-section__title">SNS</h1>
+                        <p class="index-section__title-coment">سرویس شبکه های اجتماعی</p>
+                        <div class="index-section__inner">
+                         <div class="fb-page" data-href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" data-tabs="timeline" data-width="300" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/">湘南藤沢イラン映画祭実行委員会</a></blockquote>
+                            </div>
+                            <a class="twitter-timeline" data-lang="ja" data-width="300" data-height="500" href="https://twitter.com/0VK9EcrqtmCWYLW?ref_src=twsrc%5Etfw">Tweets by 0VK9EcrqtmCWYLW</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </section>
+-->
+
+                    <!--タイムテーブル-->
+                    <section class="index-section" id="index-timetable">
+                        <h1 class="index-section__title">タイムテーブル</h1>
+                        <p class="index-section__title-coment">جدول زمان</p>
+                        <div class="index-timetable__inner-out">
+                            <div class="index-section__inner index-timetable__inner">
+
+                                <table class="index-timetable__box">
+                                    <tr>
+                                        <th colspan="2" class="index-timetable__box-title">2/29(土)上映作品</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">10:20~<br><span>(94分)</span></td>
+                                        <td>「想像の甘美な味わい」</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">13:00~<br><span>(50分)</span></td>
+                                        <td> オープニングセレモニー</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">14:00~<br><span>(121分)</span></td>
+                                        <td>「こんなに遠く、こんなに近い」</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">16:30~<br><span>(70分)</span></td>
+                                        <td>「最後の晩餐」</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">19:00~<br><span>(105分)</span></td>
+                                        <td> 「ボティガード」</td>
+                                    </tr>
+                                </table>
+
+                                <table class="index-timetable__box index-timetable__box02">
+                                    <tr>
+                                        <th colspan="2" class="index-timetable__box-title">3/1(日)上映作品</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">10:20~<br><span>(92分)</span></td>
+                                        <td>「ペインティングプール」</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">13:00~<br><span>(110分)</span></td>
+                                        <td>「クレイジールーク」</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">15:00~<br><span>(105分)</span></td>
+                                        <td>「ボディガード」</td>
+                                    </tr>
 
 
-</body></html>
+
+                                </table>
+                                <table class="index-timetable__day02"></table>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--上映作品-->
+                    <section class="index-section" id="index-works">
+                        <h1 class="index-section__title">上映作品</h1>
+                        <p class="index-section__title-coment">نمایش فیلم کار می کند</p>
+                        <div class="slider">
+                            <div class="index-works__inner index-works__inner01">
+                                <figure class="index-works__image">
+                                    <img src="img/index-works_img.png" alt="" class="index-works__image-item">
+                                </figure>
+                                <div class="index-works__text">
+                                    <div class="index-works__text-title">想像の甘美な味わい (Sweet taste of Imagination)</div>
+                                    <div class="index-works__text-daytime">2/29(土)10:20～ 94分</div>
+                                    <p class="index-works__text-element">
+                                        シーリーンは、フィアンセと自分の家族との出会いの物語を回想する。本作品では、愛情の物語をこれまでにない新しい言葉で紡いでいく。
+                                    </p>
+                                    <div class="index-works__text-caption">2014年制作(英吾字幕)<br>監督：カマル・タブリーズィー</div>
+                                </div>
+                            </div>
+
+                            <div class="index-works__inner index-works__inner02">
+                                <figure class="index-works__image">
+                                    <img src="img/index-works_img02.png" alt="" class="index-works__image-item">
+                                </figure>
+                                <div class="index-works__text">
+                                    <div class="index-works__text-title">こんなに遠く、こんなに近い (So Close, So Far)</div>
+                                    <div class="index-works__text-daytime">2/29(土)14:00～ 121分</div>
+                                    <p class="index-works__text-element">
+                                        アーレムは、腕利きの脳神経外科専門医で仕事と付き合いに忙殺され、息子サーマーンをほったらかしにしていた。砂漠の果てのない天空は、満ちあふれる星々を優しく胸に抱いている。その砂漠の中で、サーマーンは、星の観測に没頭する。ある出来事をきっかけにアーレムは、仕事を離れ、砂漠を渡って息子との距離を縮めていく。
+
+                                    </p>
+                                    <div class="index-works__text-caption">2015年制作(日本語字幕)<br>監督：レザ・ミル・キャリミ</div>
+                                </div>
+                            </div>
+
+                            <div class="index-works__inner index-works__inner03">
+                                <figure class="index-works__image">
+                                    <img src="img/index-works_img03.png" alt="" class="index-works__image-item">
+                                </figure>
+                                <div class="index-works__text">
+                                    <div class="index-works__text-title">最後の晩餐 (The Last Supper)</div>
+                                    <div class="index-works__text-daytime">2/29(土)16:30～ 70分</div>
+                                    <p class="index-works__text-element">
+                                        『最後の晩餐』は、シリアのキリスト教徒に関するドキュメンタリー作品。シリアに住むその少数派は、その地で数千年を暮らしてきており、イスラーム化以降もずっと平和的に共存してきた。しかし今、自らをイスラーム教徒であると名乗る一部の輩たちにより最も残虐な扱いを受けていた。
+                                    </p>
+                                    <div class="index-works__text-caption">2017年制作(日本語字幕)<br>監督：モハッマド・ファルド</div>
+                                </div>
+                            </div>
+
+                            <div class="index-works__inner index-works__inner05">
+                                <figure class="index-works__image">
+                                    <img src="img/index-works_img05.png" alt="" class="index-works__image-item">
+                                </figure>
+                                <div class="index-works__text">
+                                    <div class="index-works__text-title">ボディーガード(Bodyguard)</div>
+                                    <div class="index-works__text-daytime">2/29(土)19:00～<br>3/1(日)15:00～ 105分</div>
+                                    <p class="index-works__text-element">
+                                        政府要人を自爆テロから守る護衛官（ボディーガード）を務めるヘイダルは、理想家的気質の人間であった。彼は、とある職務上の問題に直面し、仕事への献身に疑問を抱き始める…
+                                    </p>
+                                    <div class="index-works__text-caption">2015年(日本語字幕)<br>監督：エブラヒーム・ハータミーキヤー</div>
+                                </div>
+                            </div>
+
+                            <div class="index-works__inner index-works__inner04">
+                                <figure class="index-works__image">
+                                    <img src="img/index-works_img04.png" alt="" class="index-works__image-item">
+                                </figure>
+                                <div class="index-works__text">
+                                    <div class="index-works__text-title">ペインティングプール (The Painting Pool)</div>
+                                    <div class="index-works__text-daytime">3/1(日)10:20～ 92分</div>
+                                    <p class="index-works__text-element">
+                                        マルヤムとレザーは、他の人たちとは違っていた。それは単純な違いではなく、もっと深刻なものであった。二人は、この大きな違いを愛の奇跡で乗り越えてきたことを周りの人たちに証明しようと努力しなければならなかった。
+                                    </p>
+                                    <div class="index-works__text-caption">2013年制作(日本語字幕)<br>監督：マーズィアール・ミリー</div>
+                                </div>
+                            </div>
+
+                            <div class="index-works__inner index-works__inner06">
+                                <figure class="index-works__image">
+                                    <img src="img/index-works_img06.png" alt="" class="index-works__image-item">
+                                </figure>
+                                <div class="index-works__text">
+                                    <div class="index-works__text-title">クレイジールーク (Crazy Rook)</div>
+                                    <div class="index-works__text-daytime">3/1(日)13:00～ 110分</div>
+                                    <p class="index-works__text-element">
+                                        ストーリーに登場する若者たちは、インターネットを通じて知り合い、軽い気持ちで賭け事をした結果、込み入った大変な事態に陥る。それは、彼らにとって生活や社会に関する新たな認識を突きつける。
+                                    </p>
+                                    <div class="index-works__text-caption">2015年(英語字幕)<br>監督：アボルハサン・ダヴーディ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--access-->
+                    <section class="index-section" id="index-access">
+                        <h1 class="index-section__title">アクセス</h1>
+                        <p class="index-section__title-coment">دسترسی</p>
+                        <div class="index-section__inner index-access__inner">
+                            <div class="index-access__map">
+
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1099.0494442587046!2d139.48108064730823!3d35.34447686361653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184e2e87d74977%3A0x583fcf6156c2ff14!2z44CSMjUxLTAwNTMg56We5aWI5bed55yM6Jek5rKi5biC5pys55S677yR5LiB55uu77yR77yS4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1576913486680!5m2!1sja!2sjp" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+                            </div>
+                            <div class="index-access__info">
+                                <p class="index-access__place">藤沢市　Fプレイスホール<br>(藤沢公民館・労働会館等複合施設)</p>
+                                <p class="index-access__address">神奈川県藤沢市本町1-12-17<br>
+                                    ► JR東海道線 「藤沢」駅より徒歩11分</p>
+                                <!--
+                                <a href="https://goo.gl/maps/zD5uPRFtwjcDcW2v5" target="_blank">
+                                    <div class="index-access__btn">Google Map</div>
+                                </a>
+-->
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="right c-dn c-db-lg">
+                    <section class="index-section c-db-lg" id="index-sns">
+                        <div class="index-section__inner index-section__inner02">
+                            <div class="fb-page" data-href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" data-tabs="timeline" data-width="300" data-height="500" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false">
+                                <blockquote cite="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/">湘南藤沢イラン映画祭実行委員会</a></blockquote>
+                            </div>
+                            <div style="margin-top: 20px;"><a class="twitter-timeline" data-lang="ja" data-width="300" data-height="500" href="https://twitter.com/0VK9EcrqtmCWYLW?ref_src=twsrc%5Etfw">Tweets by 0VK9EcrqtmCWYLW</a>
+                            </div>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <!--
+                            <figure class="index-sns__image">
+                                <img src="img/index-sns_img.jpg" alt="" class="index-about__image-item">
+                            </figure>
+-->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer class="index-footer">
+            <section class="index-section index-footer__inner">
+                <div class="index-section__inner">
+                    <div class="index-footer__info">
+                        <div class="index-footer__info-left">
+                            <p class="index-footer__info-text">主催：湘南藤沢イラン映画祭実行委員会</p>
+                            <p class="index-footer__info-text02">共催：イラン文化センター</p>
+                        </div>
+                        <div class="index-footer__info-middle">
+                            <div class="index-footer__info-text01">関連リンク<br>
+                                <a href="https://tokyo.icro.ir/" target="_blank">イラン文化センター</a>
+
+                            </div>
+                        </div>
+
+                        <div class="index-footer__info-right">
+                            <div class="icon"><a href="https://www.facebook.com/pages/category/Movie/%E6%B9%98%E5%8D%97%E8%97%A4%E6%B2%A2%E3%82%A4%E3%83%A9%E3%83%B3%E6%98%A0%E7%94%BB%E7%A5%AD%E5%AE%9F%E8%A1%8C%E5%A7%94%E5%93%A1%E4%BC%9A-107054687531635/" target="_blank"><img src="img/nav_content_img01.png" alt=""></a></div>
+                            <div class="icon01"><a href="https://twitter.com/0VK9EcrqtmCWYLW?ref_src=twsrc%5Etfw" target="_blank"><img src="img/nav_content_img02.png" alt=""></a></div>
+                            </div>
+
+                    </div>
+                    <p class="index-footer__copyright">© 2020 Shonan Fujisawa Iran Film Festival Executive Committee</p>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript">
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            $(function() {
+                $('.slider').slick({
+                    dots: true,
+                    centerMode: true,
+                    centerPadding: '5%',
+                    infinite: true,
+                    autoplay: true, //自動再生
+                });
+
+
+                $("#menu").css("display", "none");
+                $("#menu-bt").on("click", function() {
+                    $("#menu").slideToggle(300);
+                    $(this).toggleClass("active");
+                    if ($(this).hasClass("active")) {
+                        $("#drower").attr('src', './img/spmenu2.png');
+                    } else {
+                        $("#drower").attr('src', './img/spmenu.png');
+                    }
+                });
+                $(".menu_contents").on("click", function() {
+                    $("#menu").slideUp(300);
+                    $("#menu-bt").stop().removeClass("active");
+                    if ($(this).hasClass("active")) {
+                        $("#drower").attr('src', './img/spmenu2.png');
+                    } else {
+                        $("#drower").attr('src', './img/spmenu.png');
+                    }
+                });
+            });
+        };
+
+    </script>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v6.0"></script>
+
+
+</body>
+
+</html>

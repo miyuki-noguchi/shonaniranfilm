@@ -78,9 +78,13 @@
 {
     display: none;
     float: left;
-
-    height: 760px;
+    height: 800px;
     min-height: 1px;
+}
+@media screen and (min-width:768px){
+    .slick-slide{
+        height: 940px;
+    }
 }
 [dir='rtl'] .slick-slide
 {
