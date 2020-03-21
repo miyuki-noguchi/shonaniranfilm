@@ -1,5 +1,36 @@
 html {
     color: #333;
+    &::after{
+        content:'';
+        width: 100%;
+        background: #000;
+        opacity: 0.5;
+        position: absolute;
+        height: 4230px;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        @media screen and(min-width:768px){
+        height: 6300px;
+            
+        }
+    }
+    &::before{
+        content: '';
+        width: 90%;
+        height: 90%;
+        background:url('../img/info02_sp.jpg') no-repeat center/contain;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+        margin: 0 auto;
+        display: block;
+        z-index: 102;
+        @media screen and(min-width:768px){
+         background-image:url('../img/info02.jpg') ;  
+        }
+    }
 }
 
 body {
@@ -10,6 +41,7 @@ body {
     text-align: justify;
     text-justify: inter-ideograph;
     font-weight: 400;
+    
 
 }
 
@@ -142,7 +174,7 @@ main
         top: 0;
         right: 0;
         left: 0;
-        z-index: 999;
+        z-index: 50;
         border-bottom: 2px solid #df2042;
 
         @media screen and (min-width: 768px) {
